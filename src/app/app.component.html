@@ -1,0 +1,7 @@
+<div #card id="card-container">
+  <div *ngFor="let key of details">
+    <!-- {{ key.name }} -->
+    <app-card [name]="key.name" [url]="key.img"></app-card>
+  </div>
+  <!-- <app-card ></app-card> -->
+</div>
